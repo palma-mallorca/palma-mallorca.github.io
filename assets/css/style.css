@@ -613,15 +613,16 @@ p {
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; }
+  transition: all 0.3s ease-out 0s; 
+  white-space: nowrap;}
   .navbar-area .navbar-brand img {
     max-width: 350px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .navbar-area {
-      padding: 10px 0; } }
+        .navbar-area .navbar-brand img { max-width: 250px; }
+        .navbar-area { padding: 10px 0; } }
   @media (max-width: 767px) {
-    .navbar-area {
-      padding: 10px 0; } }
+	.navbar-area .navbar-brand img { max-width: 150px; }
+        .navbar-area { padding: 10px 0; } }
   .navbar-area .navbar {
     position: relative;
     padding: 0; }
